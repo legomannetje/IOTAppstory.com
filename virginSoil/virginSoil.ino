@@ -33,7 +33,7 @@
 
 #define LEDS_INVERSE   // LEDS on = GND
 
-#include <credentials.h>
+#include "credentials.h"
 #include <ESP8266WiFi.h>
 #include <ESP8266httpUpdate.h>
 #include <DNSServer.h>
@@ -148,7 +148,7 @@ void initialize(void);
 
 
 //---------- OTHER .H FILES ----------
-#include <ESP_Helpers.h>           // General helpers for all IOTappStory sketches
+#include "ESP_Helpers.h"           // General helpers for all IOTappStory sketches
 #include "IOTappStoryHelpers.h"    // Sketch specific helpers for all IOTappStory sketches
 
 
